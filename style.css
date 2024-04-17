@@ -8,34 +8,35 @@ h1 {
 }
 
 .inputs {
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
     background-color: olive;
-    margin: 5px;    
+    margin: 5px;
 }
 
 .nameButton {
     color: white;
     background-color: royalblue;
     padding: 1em;
-    margin: 5px;
-    font-size: large;
+    margin: 3px;
+    font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     border: solid black 2px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.popular{
+.popular {
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: medium;
     cursor: pointer;
     margin-left: 1%;
 }
 
-#nameListItem{
+#nameListItem {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:white;
+    color: white;
     padding: 10px;
     list-style: none;
     background-color: rgba(255, 0, 0, 0.634);
