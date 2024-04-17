@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sandras Sims namngenerator</h1>
+    </header>
+
+    <main>
+        <div class="inputs">
+            <input class="nameButton" id="femaleButton" name="femaleButton" type="button" value="Tjej" onclick="getNames('girl')">
+            <input class="nameButton" id="maleButton" name="maleButton" type="button" value="Kille" onclick="getNames('boy')">
+            <input class="nameButton" id="neutralButton" name="neutralButton" type="button" value="Neutralt" onclick="getNames('neutral')">
+            <br><br>
+            <label class="popular" for="popular">Endast populära namn</label>
+            <input class="popularBox" name="popular" type="checkbox" checked>
+        </div>
+        <div class="nameSpace">
+            <ul id="nameList">
+
+            </ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
